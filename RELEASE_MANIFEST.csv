@@ -1,0 +1,33 @@
+path,category,required,description
+.gitattributes,repository_control,YES,Repository line-ending and binary-file contract
+.gitignore,repository_control,YES,Repository packaging control
+README.md,documentation,YES,Public demo documentation
+RELEASE_MANIFEST.csv,release_control,YES,Public package inventory or integrity hashes
+RELEASE_SHA256.csv,release_control,YES,Public package inventory or integrity hashes
+docs/DATA_CONTRACT.md,documentation,YES,Public demo documentation
+docs/LIMITATIONS.md,documentation,YES,Public demo documentation
+docs/PUBLIC_DEMO_CONFIGURATION.md,documentation,YES,Public demo documentation
+generator_v2/__init__.py,runtime_code,YES,Generic simulation engine module
+generator_v2/audit.py,runtime_code,YES,Generic simulation engine module
+generator_v2/config.py,runtime_code,YES,Generic simulation engine module
+generator_v2/course_state.py,runtime_code,YES,Generic simulation engine module
+generator_v2/curriculum.py,runtime_code,YES,Generic simulation engine module
+generator_v2/dropout.py,runtime_code,YES,Generic simulation engine module
+generator_v2/engine.py,runtime_code,YES,Generic simulation engine module
+generator_v2/enrollment.py,runtime_code,YES,Generic simulation engine module
+generator_v2/grades.py,runtime_code,YES,Generic simulation engine module
+generator_v2/io_inputs.py,runtime_code,YES,Generic simulation engine module
+generator_v2/outputs.py,runtime_code,YES,Generic simulation engine module
+generator_v2/rng.py,runtime_code,YES,Generic simulation engine module
+generator_v2/schema.py,runtime_code,YES,Generic simulation engine module
+generator_v2/student.py,runtime_code,YES,Generic simulation engine module
+generator_v2/validation.py,runtime_code,YES,Generic simulation engine module
+inputs/demo/Demo_Courses.xlsx,demo_input,YES,Fictitious workbook created from scratch
+inputs/demo/Demo_Trajectories.xlsx,demo_input,YES,Fictitious workbook created from scratch
+outputs/.gitkeep,repository_control,YES,Repository packaging control
+requirements.txt,dependency,YES,Pinned Python runtime dependencies
+scripts/public_deidentification_gate.py,runtime_script,YES,"Public execution, verification, or privacy utility"
+scripts/run_demo_generator.py,runtime_script,YES,"Public execution, verification, or privacy utility"
+scripts/verify_demo_run.py,runtime_script,YES,"Public execution, verification, or privacy utility"
+tests/__init__.py,test,YES,Independent public validation suite
+tests/test_public_release.py,test,YES,Independent public validation suite
